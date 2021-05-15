@@ -1,4 +1,4 @@
-# Business show website by Kshitiz Sinha 
+# React website by Kshitiz Sinha 
 
 ### Created by React Js
 
