@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+  font-family: 'Mulish', sans-serif!important;
+  size: 1.3rem!important;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Mulish', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +15,81 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav_bg{
+  background-color: #fff!important;
+}
+
+.mlauto{
+  margin-left: auto;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 2px solid #ad399a;
+}
+
+.navbar-brand{
+  color: purple!important;
+  size: 3rem!important;
+}
+
+.brandname{
+  color: rgb(108, 0, 248);
+}
+
+@keyframes animimg {
+  0%{
+    transform: translateY(15px);
+  }
+  
+  100%{
+    transform: translateY(-15px);
+  }
+}
+
+
+.animated{
+  height: 400px;
+  width: 500px;
+  animation: animimg 2s ease-in-out infinite alternate-reverse both;
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+}
+
+#header .brandname{
+  color: #3498db;
+}
+
+#header h5{
+  font-size: 24px;
+  color: #484848;
+}
+
+.btnget{
+  letter-spacing: 1px!important;
+  font-weight: 500!important;
+  font-size: 16px!important;
+  display: inline-block!important;
+  border-radius: 50px!important;
+  border: 2px solid #3498db;
+  background-color: #fff;
+  color: #3498db;
+  padding: 10 30;
+  transition: 0.9s;
+}
+
+.btnget:hover{
+  background: #3498db;
+  color: #fff;
+}
+
+.kml-2{
+  margin-left: 10px;
 }
